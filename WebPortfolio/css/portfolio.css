@@ -1,0 +1,18 @@
+/*This is styles for the portfolio*/
+
+img{margin-top: 20px;}
+section{display: flex; justify-content: center;  flex-wrap: wrap;}
+.porth1{text-align: center; display: flex; justify-content: center; margin: 0 auto;}
+#bestwork{width: 30%; border: solid #FFD1E3 4px; box-shadow: 6px 6px 3px #5D3587;}
+
+
+
+@media  screen and (max-width:576px) {
+
+    #bestwork{width: 70%; border: solid #FFD1E3 4px; box-shadow: 6px 6px 3px #5D3587;}
+
+    img{margin-top: 10px;}
+    section{display: flex; justify-content: center;  flex-wrap: wrap;}
+    .porth1{text-align: center; display: flex; justify-content: center; margin: 0 auto;}
+
+}
